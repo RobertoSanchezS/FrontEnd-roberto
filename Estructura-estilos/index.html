@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <style>
+        .titulo{
+            color: blueviolet;
+        }
+        #titulo{
+            background: red;
+        }
+    </style> -->
+  </head>
+  <body>
+    <!-- <h1 style="color:red;">Mi primera pagina con estilos</h1>
+    <h2 class="titulo" id="titulo">Roberto</h2> -->
+
+    <!-- 
+          Van a crear un formulario de registro,
+          le van a pedir al usurio :
+          1) sus nombres
+          2) sus apellidos
+          3) su edad(que tipo debo usar para los numeros)
+          4) su correo electronico
+          5) que escriba una nueva contraseña 
+          6) que vuelva a escribir la contraseña
+          7) que escoja su tipo de documento(le damos a escoger entre dni y pasaporte )
+          9) que escoja sus nacionalidades(le damos escoger entre peruana , brasileña , chilena 
+          , ecuatoriana, colombiana)
+          10) terminar con un input de tipo submit
+      -->
+    <h2>Formulario</h2>
+    <form action="">
+      <fieldset>
+        <label for="">Nombre:</label>
+        <input type="text" class="input"/>
+        <br />
+        <hr />
+        <br />
+        <label for="">Apellido:</label>
+        <input type="text" class="input"/>
+        <br />
+        <hr />
+        <br />
+        <label for="">Edad:</label>
+        <input type="number" class="input" min="1" max="100"/>
+        <br />
+        <hr />
+        <br />
+        <label for="">Correo Electronico:</label>
+        <input type="email" class="input"/>
+        <br />
+        <hr />
+        <br />
+        <label for="">Nueva Contraseña:</label>
+        <input type="password" class="input"/>
+        <br />
+        <hr />
+        <br />
+        <label for="contraseña">Repita la Contraseña:</label>
+        <input type="password" id="contraseña" class="input"/>
+        <br />
+        <hr />
+        <br />
+        <label for="">Tipo de Documento:</label>
+        <select name="Documento" id="" class="input documento">
+          <option value="DNI">DNI</option>
+          <option value="Pasaporte">Pasaporte</option>
+        </select>
+        <br />
+        <hr />
+        <br />
+        <label for="">Nacionalidad:</label>
+        <select name="nacionalidad" id="" class="input nacionalidad">
+          <option value="Peruano">Peruano</option>
+          <option value="Chileno">Chileno</option>
+          <option value="Brasileño">Brasileño</option>
+          <option value="Colombiano">Colombiano</option>
+          <option value="Ecuatoriano">Ecuatoriano</option>
+        </select>
+        <br />
+        <br />
+        <input type="submit" value="enviar" class="input boton"/>
+      </fieldset>
+    </form>
+  </body>
+</html>

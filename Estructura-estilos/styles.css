@@ -1,0 +1,50 @@
+.titulo{
+    color: black;
+    background: red;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    width: 100px;
+    height: 100px;
+}
+
+/* estilos de color,tamaño y border en el input */
+/* class -> .
+id -> # */
+/* 
+* color -> colorea las letras o parrafos
+* background -> declara un color de fondo
+* border-radius -> genera bordes redondeados
+* width -> ancho de alguna propiedad o elemento
+* height -> alto de una propiedad o elemento
+* margin -> crea un espacio alrededor de los elementos
+* padding -> genera un espacion alrededor del contenido
+
+ */
+.input{
+    background: gray;
+    border-radius: 20px;
+    border: none;
+    height: 25px;
+    color: white;
+    padding: 5px;
+}
+.documento{
+    padding: 5px;
+    color: white;
+}
+
+.nacionalidad{
+    padding: 5px;
+    color: white;
+}
+.boton{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 20px;
+    width: 700px;
+    margin: auto;
+    line-height: 5px;
+}
