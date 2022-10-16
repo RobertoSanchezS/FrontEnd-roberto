@@ -1,0 +1,16 @@
+.titulo{
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    text-indent: 100px;
+    letter-spacing: 10px;
+   }
+   .parrafo{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-style: italic;
+    text-indent: 50px;
+    word-spacing: 20px;
+    line-height: 40px;
+   }
