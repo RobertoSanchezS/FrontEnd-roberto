@@ -1,5 +1,5 @@
 .titulo{
-    color: blueviolet;
+    color: blueviolet; 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 700;
     text-indent: 100px;
@@ -9,8 +9,13 @@
     color: brown;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
-    font-style: italic;
+    font-style: inherit;
     text-indent: 50px;
     word-spacing: 20px;
     line-height: 40px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align:right;
+    text-shadow: red 29px 20px 9px;
+    /*text-shadow: color desplazamiento horizontal  desplazamiento vertical  opacidad de la letra*/
    }
