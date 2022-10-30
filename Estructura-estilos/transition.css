@@ -1,0 +1,9 @@
+.transicion{
+    width: 500px;
+    height: 500px;
+    background-color: violet;
+    transition:all 1s linear;
+}
+.transicion:hover{
+    background-color: blueviolet;
+}

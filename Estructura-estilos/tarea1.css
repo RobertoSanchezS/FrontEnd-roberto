@@ -1,0 +1,87 @@
+*{
+    background-color: blueviolet;
+    
+}
+.titulo{
+    color: blue;
+    text-align: center;
+}
+.subtitulo{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+.parrafo{
+    color: white;
+
+}
+
+.imagen1{    
+    width: 200px;
+    height: 250px;
+    background-size: cover;
+    background-position: right;
+    border-radius: 5%;
+    margin-top: 30px;
+    margin-left: 150px;   
+    box-shadow: 4px 5px 6px 4px plum;
+}
+.imagen2{
+    width: 200px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+    margin-left: 250px; 
+    box-shadow: 4px 5px 6px 4px red;
+}
+.cajaloca{
+    margin-top: 100px;
+}
+.bob{
+    width: 200px;
+    height: 200px;
+    
+    margin-top: 30px;
+    margin-left: 600px;
+}
+.cubo1{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    position: absolute;
+    left: 40px;
+    bottom: -92px;
+}
+.cubo2{
+    background-color: aqua;
+}
+.cubo3{
+    background-color: aqua;
+}
+.cubo4{
+    background-color: aqua;
+}
+.rectangulo{
+    margin-top: 100px;
+}
+.cua{
+    width: 600px;
+    height: 50px;
+}
+.recta1{
+    height: 30px;
+    background-color: green;
+    position: absolute;
+    right: 400px;
+    
+}
+.recta2{
+    background-color: yellow;
+}
+.recta3{
+    background-color: blue;
+}
+.recta4{
+    background-color: black;
+}

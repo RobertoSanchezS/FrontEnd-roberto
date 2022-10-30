@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: green;
+}
+.color-solido{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+.gradiente{
+    width: 100px;
+    height: 80px;
+    background-image: linear-gradient(42deg, red, yellow);
+}
+.peru{
+    width: 800px;
+    height: 400px;
+    background-image: linear-gradient(90deg, red 33%, white 33%, white 66%, red 66%);
+}
+.gradiente-circular{
+    height: 400px;
+    background-image: radial-gradient(circle at 100%,grey, grey 50%, white 75%, grey 75%);
+}
+.another-one{
+    height: 400px;
+    background-image: radial-gradient(circle at top left,#333,#333 50%,#eee 75%,#333 75%);
+}
+.gradiente-conico{
+    width: 500px;
+    height: 400px;
+    background-image: conic-gradient(from 98deg,red,yellow,lime,aqua,
+    blue,magenta,red);
+}
+.pie{
+    height: 500px;
+    background-image: conic-gradient(lime 40%,yellow 0 70%,red 0);
+} 

@@ -1,0 +1,17 @@
+.transformacion{
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    /* transform:scale(numero de veces en que aumentara el ancho, aumentara la altura) */
+    transform:scale(8,3);
+}
+.pet1{
+    /* el transform tiene muchas propiedades
+    -rotate(numerodeg) <- permite rotar la imagen, 50deg en contra de la manecillas de un reloj
+    -skew(numerodeg,numerodeg)
+         ejeX, ejeY <- modifica la forma de un elemento
+    -traslate(x,y,z)*/
+    width: 500px;
+    height: 400px;
+    transform: skew(25deg,21deg) rotate(30deg) translate3d(300px,200px,100px);
+}

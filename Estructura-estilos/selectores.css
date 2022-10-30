@@ -1,0 +1,98 @@
+/* selectores */
+/* , = y */
+article,h1{
+    background-color: chartreuse;
+}
+
+/* va a referenciar a todos los hijos article que tenga section pero en cualquier nivel */
+section article{
+    border: 2px solid red;
+}
+
+/* a los hijos que esten un primer nivel > primeros hijos */
+ul>li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: tomato;
+}
+
+nav>ol>li{
+    color: blue;
+}
+
+/* nombre clase */
+.titulo{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.noticia{
+    background-color: cornflowerblue;
+}
+
+.adicional{
+    font-family: serif;
+}
+/* identificador unico */
+#importante{
+    background-color: crimson;
+    /* para usar important en casos de mucha necesidad */
+    text-decoration: overline !important;
+}
+
+/* pseudo clases */
+/* de las etiquetas de tipo tr va a escoger los impares,odd=impart */
+tr:nth-of-type(odd){
+    background-color: seagreen;
+}
+
+/* de las etiquetas de tipo tr va a escoger los pares, even=par */
+tr:nth-of-type(even){
+    background-color: blanchedalmond;
+}
+
+/* a los parrafos, pero que sean los primeros de su tipo */
+p:first-of-type{
+    color: blue ;
+    font-weight: bold;
+}
+
+/* selector: nth-of-type(numero) el numero referente segun los hermanos del mismo que tenga ej 
+<li></li>
+<li></li>
+<li></li>  <- 3 */
+ol>li:nth-of-type(3){
+    font-style: italic;
+    background-color: teal;
+    color: crimson;
+}
+table,tr,td,th{
+
+    border: 2px solid grey;
+    border-collapse: collapse;
+}
+
+/* nth-of-type(An) de los elementos que hay utiliza cada 3 */
+/* li:nth-of-type(3n){
+    color: violet;
+    background-color: chocolate;
+} */
+/* nth-of-type(An+B), N comienza desde 0 y aumentando */
+li:nth-of-type(3n+2){
+    color: violet;
+    background-color: chocolate;
+}
+
+/* hover, va aplicar cuando el mouse este encima del elemento */
+.lenguajes>li:hover{
+    text-decoration: underline;
+}
+
+#btn{
+    background-color: black;
+    color: white;
+}
+
+#btn:hover{
+    background-color: white;
+    color: black;
+}

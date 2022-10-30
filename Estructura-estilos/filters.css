@@ -1,0 +1,25 @@
+.filtro{
+    height: 500px;
+    filter: blur(2px) grayscale(10); /* desenfoque de una imagen de 0 a 100px*/
+     /* gayscale <- escala de grises(numero) */
+}
+.filtro:hover{
+    filter: brightness(40%);
+}
+.filtro2{
+    height: 500px;
+    /* contrast(numero) <- efecto contraste */
+    /* opacity(numero%) <- efecto de opasidad */
+    /* invert(numero) <- efecto invertir imagen */
+    /* sepia(numero%) <- efecto sepa */
+    /* saturate(numero%) <- efecto de saturacion */
+    /* brightness(numero%) <- efecto brillo */
+    filter: contrast(3) opacity(70%) invert(4);
+}
+.filtro3{
+    height: 500px;
+    filter: sepia(10%) saturate(50%) brightness(50%);
+}
+.filtro3:hover{
+    border-radius: 50%;
+}
