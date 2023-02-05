@@ -1,0 +1,29 @@
+*{
+    background-color: rgb(24, 134, 2);
+}
+ .contenedor{
+    display: flex;
+    flex-direction: row;
+}
+.caja-horizontal{
+    display: flex;
+    flex-direction: row;
+}
+ 
+ .elemento-de-caja-horizontal{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 10px;
+ }
+ .caja-vertical{
+    display: flex;
+    flex-direction: column;
+ }
+ .elemento-de-caja-vertical{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 10px;
+ }

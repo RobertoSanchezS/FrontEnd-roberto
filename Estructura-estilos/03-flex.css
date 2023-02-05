@@ -1,0 +1,31 @@
+.contenedor-principal{
+    display: flex;
+    flex-wrap: wrap;/*envolver a los elementos que contenga*/
+    flex-direction: row;
+    background-color:palevioletred;
+    border-radius: 20px;
+    padding:20px;
+}
+.elementos{
+    margin:10px;
+    height: 100px;
+    width: 150px;
+    background-color: peachpuff;
+    border-radius: 20px;
+}
+p{
+    color:white;
+    font-size:20px;
+    font-weight: bold;
+    text-align:center;
+    background-color:powderblue;
+}
+.grande{
+    flex-grow: 2;
+}
+.mediano{
+    flex-grow: 1;
+}
+.pequeño{
+    flex-grow: 0.5;
+}
