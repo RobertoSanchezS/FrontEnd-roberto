@@ -12,3 +12,10 @@ const encontrandoNombre = nombres.find((nombre) => {
 })
 
 console.log(encontrandoNombre);
+
+
+// indexOf
+// busca un elemento de mi arreglo y si existe me devuelve o retorna su posicion, en caso de no existir me devuelve un -1
+let nombres2 = ["Juan","Maria","Diana","Gaby","Javky","Diego","Marcos","Danny"]
+let position = nombres2.indexOf("Diana")
+console.log(position)
