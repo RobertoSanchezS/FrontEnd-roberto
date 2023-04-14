@@ -13,7 +13,4 @@ console.log(bodyContent);
 
 const firstP = document.querySelector("p");
 firstP.innerText = firstP.innerText.toUpperCase();
-
-
-
-
+console.log(firstP);
