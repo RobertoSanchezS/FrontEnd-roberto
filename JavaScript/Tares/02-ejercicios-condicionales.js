@@ -9,7 +9,12 @@
  */
 
 
+    const anhoBisiesto = 2016;
 
+    if ((anhoBisiesto % 4 == 0) && ((anhoBisiesto % 100 != 0) || (anhoBisiesto % 400 == 0)))
+       console.log("El año es bisiesto");
+    else
+       console.log("El año no es bisiesto");
 
 
 

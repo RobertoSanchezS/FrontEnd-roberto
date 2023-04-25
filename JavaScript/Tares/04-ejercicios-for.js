@@ -5,7 +5,7 @@
 // let alumnos = ["Alex","Diego","Carlos","Gaby","Jacky","Paloma","Danny"]
 
 // let notas = [15,17,20,20,14,18,14]
-
+ 
 
 
 
